@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	text-align: center;	
+}
+
+h1{
+	font-weight: bold;
+}
+.cabezote{
+	margin-top: 3rem;
+}
+.cabezote p{
+	margin-top: 2rem;
+}
+.cabezote p > span{
+	font-weight: bold;
+}
+.inicio{
+	margin-top: 3rem;
+}
+.error{
+	color:red;
+}
+.posiciones{
+	margin-top: 5rem;
+	position: relative;
+}
+.posiciones th{
+	text-align: center;;
+}
+.ganadorContenedor{
+	background-color:rgba(81,245,5,0.8);
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index:10;
+}
+
+.ganadorMensaje{
+    color: white;
+    display: none;
+    font-size: 20rem;
+    font-family: sans-serif;
+    line-height: 18rem;
+    margin-top: 18%;
+    position: relative;
+    
+}
+
+.nuevo-juego{
+    background-color: rgba(0,0,0,0);
+    border: 1rem solid white;
+    color: white;
+    display: none;
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative; 
+    top: 3rem; 
+}
+
+.mostrar{
+	display: block;
+}
